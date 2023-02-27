@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.example</groupId>
     <artifactId>ninux-github-facility</artifactId>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
     <name>ninux-github-facility</name>
     <description>Demo project for Spring Boot</description>
 
@@ -12,7 +12,6 @@
         <java.version>11</java.version>
         <spring-boot.version>2.7.6</spring-boot.version>
     </properties>
-
 
     <dependencyManagement>
         <dependencies>
