@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>ninux-github-facility</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>ninux-github-facility</name>
     <description>Demo project for Spring Boot</description>
 
@@ -76,7 +76,7 @@
         <repository>
             <id>github</id>
             <name>GitHub OWNER Apache Maven Packages</name>
-            <url>https://github.com/ninuxGithub/ninux-github-facility.git</url>
+            <url>https://github.com/ninuxGithub/ninux-github-facility</url>
         </repository>
     </distributionManagement>
 
