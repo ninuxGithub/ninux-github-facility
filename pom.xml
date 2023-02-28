@@ -84,13 +84,8 @@
         <repository>
             <id>github</id>
             <name>GitHub ninuxgithub Apache Maven Packages</name>
-            <url>https://github.com/ninuxgithub/ninux-github-facility</url>
+            <url>https://maven.pkg.github.com/ninuxgithub/ninux-github-facility</url>
         </repository>
     </distributionManagement>
-
-    <!--
-    mvn deploy:deploy-file -Dmaven.test.skip=true -Dfile= D:\project\ninux-github-facility\target\ninux-github-facility-1.0.0.jar -DgroupId=com.example -DartifactId=ninux-github-facility -Dversion=1.0.0 -Dpackaging=jar -DrepositoryId=github -Durl=https://github.com/ninuxGithub/ninux-github-facility
-    -->
-
 
 </project>
