@@ -1,4 +1,4 @@
-package com.example.ninuxgithubfacility;
+package com.ninuxgithub.facility;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

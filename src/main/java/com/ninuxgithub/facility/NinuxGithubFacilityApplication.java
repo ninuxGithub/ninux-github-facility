@@ -1,4 +1,4 @@
-package com.example.ninuxgithubfacility;
+package com.ninuxgithub.facility;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
