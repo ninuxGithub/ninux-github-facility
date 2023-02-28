@@ -3,7 +3,7 @@
 
 ```xml
 <dependency>
-    <groupId>com.example</groupId>
+    <groupId>com.ninuxgithub.facility</groupId>
     <artifactId>ninux-github-facility</artifactId>
     <version>1.0.0</version>
 </dependency>
