@@ -7,6 +7,7 @@
     <version>1.0.0</version>
     <name>ninux-github-facility</name>
     <description>Demo project for Spring Boot</description>
+    <packaging>jar</packaging>
 
     <properties>
         <java.version>11</java.version>
@@ -82,11 +83,14 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>GitHub OWNER Apache Maven Packages</name>
-            <url>https://github.com/ninuxGithub/ninux-github-facility</url>
+            <name>GitHub ninuxgithub Apache Maven Packages</name>
+            <url>https://github.com/ninuxgithub/ninux-github-facility</url>
         </repository>
     </distributionManagement>
 
+    <!--
+    mvn deploy:deploy-file -Dmaven.test.skip=true -Dfile= D:\project\ninux-github-facility\target\ninux-github-facility-1.0.0.jar -DgroupId=com.example -DartifactId=ninux-github-facility -Dversion=1.0.0 -Dpackaging=jar -DrepositoryId=github -Durl=https://github.com/ninuxGithub/ninux-github-facility
+    -->
 
 
 </project>
